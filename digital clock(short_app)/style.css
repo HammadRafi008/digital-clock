@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 247, 255);
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    margin-left: 300px ;
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 42px;
+    font-family: cursive;
+    text-transform:uppercase;
+    text-decoration: underline sandybrown;
+}
+
+.container{
+    width: 500px;
+    border: 2px cyan solid;
+    margin: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+    box-shadow: 20px 10px 12px cyan;
+
+}
+
+#dateContainer{
+    font-size: 40px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    word-spacing: 10px;
+
+}
+#clockContainer{
+    font-size: 50px;
+    display: flex;
+    font-family: cursive;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+
+#but{
+    display: flex;
+    justify-content: center;
+
+}
+
+button{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(147, 255, 7);
+    background-color: brown;
+    border: 2px red solid;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+button:hover{
+    background-color: rgb(35, 218, 193);
+    box-shadow: 10px 10px 10px aqua;
+}
